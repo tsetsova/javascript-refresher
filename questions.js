@@ -32,7 +32,7 @@ var addElementToBeginning = function(array, element) {
 }
 
 var sortByLastLetter = function(array) {
-  return 'Write your method here';§
+  return 'Write your method here';
 }
 
 var getFirstHalf = function(string) {
