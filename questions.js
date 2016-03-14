@@ -14,11 +14,12 @@ var removeNullElements = function(array) {
 }
 
 var removeNullAndFalseElements = function(array) {
-  return 'Write your method here';
+  return array.filter(function(element) {return element != null && element !== false});
 }
 
 var reverseWordsInArray = function(array) {
-  return 'Write your method here';
+  function reverseWord(word) {return word.split("").reverse().join("")}
+  return array.map(reverseWord)
 }
 
 var everyPossiblePair = function(array) {
