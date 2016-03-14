@@ -1,9 +1,6 @@
 var selectElementsStartingWithA = function(array) {
-  return 'Write your method here';
-}
-
-var selectElementsStartingWithA = function(array) {
-  return 'Write your method here';
+  function startswithA(word){return word[0]==="a"}
+  return array.filter(startswithA);
 }
 
 var selectElementsStartingWithVowel = function(array) {
@@ -35,7 +32,7 @@ var addElementToBeginning = function(array, element) {
 }
 
 var sortByLastLetter = function(array) {
-  return 'Write your method here';
+  return 'Write your method here';§
 }
 
 var getFirstHalf = function(string) {
